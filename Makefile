@@ -23,8 +23,8 @@ define Package/multimon-ng/Default
 endef
 
 define Build/Prepare
-        mkdir -p $(PKG_BUILD_DIR)
-        $(CP) /home/openwrt/tmp/multimon-ng/* $(PKG_BUILD_DIR)/
+#        mkdir -p $(PKG_BUILD_DIR)
+#        $(CP) /home/openwrt/tmp/multimon-ng/* $(PKG_BUILD_DIR)/
 endef
 
 define Package/multimon-ng
